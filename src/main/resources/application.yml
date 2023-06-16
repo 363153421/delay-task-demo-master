@@ -1,0 +1,12 @@
+spring:
+  redis:
+    host: 192.168.200.144
+    port: 6379
+  rabbitmq:
+    host: 192.168.200.144
+    port: 5672
+    virtual-host: /
+rocketmq:
+  name-server: 192.168.200.144:9876 #服务器ip
+  producer:
+    group: sanyouProducer
